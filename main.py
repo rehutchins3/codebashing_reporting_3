@@ -345,8 +345,8 @@ def loadCompletionRates():
 
     # get a refreshed dataset from CB. verify=False needs to be fixed to handle certificates
     r = requests.get("https://paychex.codebashing.com/api/v1/users/sign_in_and_course_info",
-                     headers={"X-Api-Key": "ffe69799111c08eaee9c006d31159326",
-                              "Authorization": "Bearer CijeSlTtkAU2KBTznaNgGNDFHqzHjdlBFjXrNFcPHdg="}, verify=False)
+                     headers={"X-Api-Key": "djf98snmsjdid908ndj18naqwtyc09sd",
+                              "Authorization": "Bearer Jhosy6HD710nosHJopwT198dnoTdnoieXdhwqbryPab="}, verify=False)
 
 
 
