@@ -1,0 +1,16 @@
+Non-inclusive test.
+
+Black list
+Blacklist
+White list
+Whitelist
+
+This is a sentence that contains the phrase "slave drive" to make a point.
+
+This is a sentence that contains a nonsense word, adcslavedef to perform a dumb test.
+
+I'm even going to throw in a labeled SSN: 068-12-3456.
+
+068-55-9982
+
+2/7/1971
