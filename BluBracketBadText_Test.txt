@@ -4,6 +4,7 @@ Black list
 Blacklist
 White list
 Whitelist
+Master
 
 This is a sentence that contains the phrase "slave drive" to make a point.
 
