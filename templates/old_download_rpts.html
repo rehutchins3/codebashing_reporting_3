@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <h1>{{ title }}</h1>
+        <p>Download the Codebashing progress report <a href="{{ url_for('.download_file', rpt_name='progress') }}">here</a>.</p>
+        <p>Download the Missing E-mail report <a href="{{ url_for('.download_file', rpt_name='email') }}">here</a>.</p>
+    </body>
+</html>

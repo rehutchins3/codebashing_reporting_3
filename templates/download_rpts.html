@@ -1,0 +1,36 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}
+{{ super() }}
+	<style>
+		body { background: #e8f1f9; }
+	</style>
+{% endblock %}
+
+
+{% block title %}
+Report Download Page
+{% endblock %}
+
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 col-lg-8 mx-lg-auto mx-md-auto">
+
+      <h1 class="pt-5 pb-2">Success!!</h1>
+
+      <p class="lead">Good news! Your reports have been generated and are available for you to download using the links
+      below. Please click the link and your download will start automatically.</p>
+
+        <p>Download the Codebashing progress report <a href="{{ url_for('.download_file', rpt_name='progress') }}">here</a>.</p>
+        {% if showfield == True %}
+            <p>Download the Missing E-mail report <a href="{{ url_for('.download_file', rpt_name='email') }}">here</a>.</p>
+        {% endif %}
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}
