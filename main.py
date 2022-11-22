@@ -20,7 +20,7 @@ app = Flask(__name__)
 
 # Flask-WTF requires an encryption key - the string can be anything
 # Random key courtesy of https://randomkeygen.com/
-app.config['SECRET_KEY'] = 'Sw?q8rxWF{&Z"_>:HAa$gZ%SZP1ZBC'
+app.config['SECRET_KEY'] = 'Sw?'
 app.config['UPLOAD_FOLDER'] = Path("uploaded_files")
 app.config['MAX_CONTENT_PATH'] = '5000'
 app.config['GENERATED_REPORT_FOLDER'] = Path("generated_reports")
@@ -345,8 +345,8 @@ def loadCompletionRates():
 
     # get a refreshed dataset from CB. verify=False needs to be fixed to handle certificates
     r = requests.get("https://paychex.codebashing.com/api/v1/users/sign_in_and_course_info",
-                     headers={"X-Api-Key": "djf98snmsjdid908ndj18naqwtyc09sd",
-                              "Authorization": "Bearer Jhosy6HD710nosHJopwT198dnoTdnoieXdhwqbryPab="}, verify=False)
+                     headers={"X-Api-Key": "djf",
+                              "Authorization": "Bearer Jho"}, verify=False)
 
 
 
