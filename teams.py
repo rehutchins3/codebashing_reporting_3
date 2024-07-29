@@ -19,8 +19,8 @@ def load_team_info():
     # get a refreshed dataset from CB. verify=False needs to be fixed to handle certificates
     global r
     r = requests.get("https://paychex.codebashing.com/api/v1/teams/team_info",
-                     headers={"X-Api-Key": "77495292357f39b7f041958f8bf25cd3",
-                              "Authorization": "Bearer wS6FWIPebF2YBt2ZFjpPTvcLbQAIplPi8g0EMPiugWQ="}, verify=False)
+                     headers={"X-Api-Key": "X",
+                              "Authorization": "Bearer Y"}, verify=False)
 
     # Rich for testing purposes
     print("Request For Teams Info Successful!")
