@@ -9,7 +9,7 @@ import json
 r = ""
 parse_style = "TeamName_+_UserEmails"
 
-'''7/29/2024 - Comment to trigger a secrets scan of this file. Delete this later.'''
+'''7/29/2024 - Comment to trigger a secrets scan of this file. Delete this later..'''
 
 
 def load_team_info():
